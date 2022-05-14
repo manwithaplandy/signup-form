@@ -1,0 +1,13 @@
+#left-panel {
+    height: 100vh;
+    background-image: url('sidepanel.jpg');
+}
+
+#spacer {
+    height: 20vh;
+}
+
+#title-text {
+    font-size: 8vmin;
+    text-align: center;
+}

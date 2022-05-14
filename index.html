@@ -41,17 +41,18 @@
 
             <div class="input">
                 <label for="password">Password</label>
-                <input type="password" name="password" id="password">
+                <input type="password" name="password" id="password" class="error">
+                <p class="error-msg">* Password fields empty or do not match</p>
             </div>
 
             <div class="input">
                 <label for="pass-confirm">Confirm Password</label>
-                <input type="password" name="pass-confirm" id="pass-confirm">
+                <input type="password" name="pass-confirm" id="pass-confirm" class="error">
             </div>
         </form>
         <div class="form-footer">
             <button type="submit" form="sign-up" id="sub-button">Create Account</button>
-            <p>Already have an account? <a href='#'>Log in</a></p>
+            <p>Already have an account? <a href='#' id="login">Log in</a></p>
         </div>
     </div>
 

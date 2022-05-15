@@ -185,6 +185,7 @@ body {
     font-weight: bold;
     line-height: 2.5rem;
     background-color: var(--main-background);
+    flex: auto;
 }
 
 #sign-up {
@@ -255,6 +256,7 @@ input:focus {
     padding-left: 5rem;
     padding-top: 2rem;
     font-size: 1rem;
+    flex: auto;
 }
 
 a {

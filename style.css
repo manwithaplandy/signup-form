@@ -177,13 +177,13 @@ body {
     display: flex;
     align-items: center;
     font-family: sans-serif;
-    padding-left: 9rem;
-    padding-right: 15rem;
-    padding-top: 10rem;
-    padding-bottom: 6rem;
-    font-size: 3rem;
+    padding-left: 5rem;
+    padding-right: 10rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    font-size: 2rem;
     font-weight: bold;
-    line-height: 5rem;
+    line-height: 2.5rem;
     background-color: var(--main-background);
 }
 
@@ -191,35 +191,35 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     font-family: sans-serif;
-    padding-top: 2rem;
+    padding-top: 1rem;
     box-shadow: 0px 15px 20px -5px rgba(0, 0, 0, 0.25);
-    column-gap: 5rem;
-    padding-left: 9rem;
-    padding-right: 15rem;
-    padding-bottom: 4rem;
-    padding-top: 3rem;
+    column-gap: 3rem;
+    padding-left: 5rem;
+    padding-right: 10rem;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
 }
 
 form>h4 {
     grid-column: span 2;
     margin: 0;
-    margin-bottom: 3rem;
-    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
 }
 
 .input {
     display: flex;
     flex-direction: column;
-    font-size: 2rem;
-    letter-spacing: 0.3rem;
-    gap: 0.5rem;
+    font-size: 1rem;
+    letter-spacing: 0.25rem;
+    gap: 0.2rem;
 }
 
 input {
-    min-height: 3rem;
+    min-height: 2rem;
     border-radius: 8px;
-    margin-bottom: 25px;
-    border-width: 1px;
+    margin-bottom: 12px;
+    border-width: 0.7px;
     border-color: rgba(211, 211, 211, 0.521);
     box-shadow: none;
 }
@@ -235,7 +235,7 @@ input:focus {
 
 .error-msg {
     color: red;
-    font-size: 1.8rem;
+    font-size: 0.8rem;
     letter-spacing: normal;
 }
 
@@ -243,18 +243,18 @@ input:focus {
     box-sizing: border-box;
     background: #596D48;
     border-radius: 8px;
-    min-width: 30rem;
-    min-height: 8rem;
+    min-width: 13rem;
+    min-height: 4rem;
     color: white;
-    font-size: 3rem;
+    font-size: 1.5rem;
 }
 
 .form-footer {
     background-color: var(--main-background);
     min-height: 30vh;
-    padding-left: 9rem;
-    padding-top: 4rem;
-    font-size: 3rem;
+    padding-left: 5rem;
+    padding-top: 2rem;
+    font-size: 1rem;
 }
 
 a {
